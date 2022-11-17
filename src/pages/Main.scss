@@ -1,0 +1,32 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  height: calc(100vh - 200px);
+  padding: 20px 40px;
+  overflow-y: auto;
+
+  p {
+    font-size: 32px;
+    font-weight: 900;
+  }
+
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: #d5d5d569;
+    border-radius: 10px;
+  }
+
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {
+    background: rgba(145, 145, 145, 0.6);
+  }
+}

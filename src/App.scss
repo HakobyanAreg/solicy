@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  height: 100vh;
+
+  .content {
+    width: 80%;
+  }
+
+  .instruction {
+    width: 20%;
+    height: 100%;
+
+    section {
+      height: 100%;
+    }
+  }
+}
